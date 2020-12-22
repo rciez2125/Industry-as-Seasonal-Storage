@@ -6,7 +6,6 @@ import pandas as pd
 from eia import api
 import re
 
-
 class Fred_data(object):
     def __init__(self, naics):
         self.naics = naics

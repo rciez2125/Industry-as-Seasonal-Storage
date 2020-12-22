@@ -5,9 +5,14 @@ import ind_output as ind
 from datetime import date
 import matplotlib.ticker as ticker
 
+<<<<<<< Updated upstream
 #Gets FRED, EPA, and BEA data and organizes it. Takes average of capacity data and sum of emissions,
 #and gets all NAICS codes from FRED and EPA. Also converts FRED data to annual and finds
 #state level industrial capacity data using BEA GDP data.
+=======
+print('test')
+
+>>>>>>> Stashed changes
 def process(naics):
 
     cap = ind.Fred_data(naics)
